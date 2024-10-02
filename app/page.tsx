@@ -1,7 +1,7 @@
 // import Image from "next/image";
 import "./globals.css";
 
-// import Avatar from "./images/profile background.png";
+
 // icons
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -9,11 +9,16 @@ import { FaDiscord } from "react-icons/fa";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <div className="home-section">
       <div className="container">
+
+        <Header/>
+
         <div className="box1">
           <div className="inner-box-one">
             <div className="top-profile-avatar">
@@ -71,6 +76,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="box3">
           <div className="inner-box3-one">
             <h4>I constantly try to improve my self</h4>
@@ -92,6 +98,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+
+        <Footer/>
+
       </div>
     </div>
   );

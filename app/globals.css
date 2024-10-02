@@ -119,30 +119,32 @@
       }
     }
 
-    .social-icons {
-      color: var(--secondary-color);
-      font-size: 2rem;
+    
+  }
+
+  .social-icons {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    .icon-back {
+      backdrop-filter: blur(7px) saturate(152%);
+      -webkit-backdrop-filter: blur(7px) saturate(152%);
+      background-color: rgba(255, 255, 255, 0.13);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+      padding: 0.5rem;
       display: flex;
       align-items: center;
-      .icon-back {
-        backdrop-filter: blur(7px) saturate(152%);
-        -webkit-backdrop-filter: blur(7px) saturate(152%);
-        background-color: rgba(255, 255, 255, 0.13);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.125);
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 1.5rem;
-        transition: 0.5s;
+      justify-content: center;
+      margin-left: 1.5rem;
+      transition: 0.5s;
 
-        &:hover{
-          background-color: transparent;
-          transform: scale(1.1);
-          border: 2px solid var(--secondary-color);
-          color: var(--primary-color);
-        }
+      &:hover{
+        background-color: transparent;
+        transform: scale(1.1);
+        border: 2px solid var(--secondary-color);
+        color: var(--primary-color);
       }
     }
   }

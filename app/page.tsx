@@ -50,7 +50,7 @@ export default function Home() {
             <div className="bottom-profile-avatar">
               <p>
                 I enjoy learning new things and try to overcome new challenges
-                while analyzing how i improved through them.
+                while analyzing how I improved through them.
               </p>
             </div>
           </div>

@@ -7,7 +7,7 @@ export default function Footer() {
 
           <div className="text">
             <h1>Contact me for a project</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab fuga laudantium veritatis autem! Voluptas saepe vel quasi </p>
+            <p>Let's collaborate on your next project! Feel free to reach out for inquiries, project discussions, or freelance opportunities.</p>
           </div>
 
           <div className="newslater">
